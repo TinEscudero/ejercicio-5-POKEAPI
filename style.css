@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display:flex;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: center
+
+
+
+
+};
+
+
+#pokedex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+
+}
+
+.carta{
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.452);
+    height: 241px;
+    width: 303px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 6%;
+    background-color: antiquewhite;
+   
+
+  }
+
+  .carta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 20px 20px rgba(73, 72, 72, 0.964);
+  }
+  .nombrecarta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  img {
+    display: flex;
+    align-items: center;
+
+    height: 200px;
+    width: 200px;
+  }
+
+
+body {
+  background-image: url("/assets/images\ \(2\).jpg");
+  background-size: cover;
+}
+
+#pokedex {
+  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1000px;
+  margin: auto;
+}
+
+
+.carta img {
+  width: 160px;
+}
+
+.nombrecarta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+img {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+}/*# sourceMappingURL=style.css.map */
+
+.cabesa{
+  margin-top: 30%;
+  margin:10px auto;
+  width: 80%;
+  height: 70%;
+  
+  
+ 
+
+}
+
+.cabesa:hover{
+  
+    transform: translateY(-15px);
+   
+  }
+
+
+
+.input { 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:50px;
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  min-width: 30%;
+
+}
+.input__filter {
+  width: 15vw;
+  height: 5vh;
+  background-color: rgb(255, 255, 252);
+  border-radius: 100px;
+  border-style: solid;
+
+  border-bottom-width: 6px;
+  outline: none;
+  min-width: 30%;
+  font-size: 20px;
+  padding: 0 auto;
+  padding-left: 10px;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.filtro {
+  display: none;
+}
+.pika{
+  height: 40%;
+  width: 20%;
+display: flex;
+align-items: center;
+margin-left: 40%;
+
+}
